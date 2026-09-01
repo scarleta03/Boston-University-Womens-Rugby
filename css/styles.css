@@ -218,10 +218,6 @@ section{padding:96px 0;}
 .eboard-more{max-height:0;overflow:hidden;transition:max-height .3s ease;padding:0 18px;}
 .eboard-more p{font-size:13px;color:var(--muted);margin:0 0 16px;}
 .eboard-card.expanded .eboard-more{max-height:90px;}
-.eboard-card.tba .eboard-trigger{cursor:default;}
-.eboard-card.tba .eboard-photo-ph{aspect-ratio:4/5;position:relative;display:flex;align-items:center;justify-content:center;}
-.eboard-card.tba .eboard-photo-ph span{color:rgba(255,255,255,0.85);font-family:'Anton',sans-serif;font-size:30px;font-weight:700;}
-.eboard-card.tba .role{color:var(--faint);}
 
 /* ---------- PILLARS ---------- */
 .pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);}
