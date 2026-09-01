@@ -1,1 +1,1 @@
-# Boston-University-Women-s-Rugby
+# Boston-University-Womens-Rugby
