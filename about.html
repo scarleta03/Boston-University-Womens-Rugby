@@ -7,7 +7,7 @@
 <meta name="description" content="BU Women's Rugby is a member of Rugby Northeast, USA Rugby, competing in the D1 Northeast Women's Collegiate Rugby Conference. No experience required, ever.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Jost:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -19,29 +19,15 @@
     <a href="index.html" class="wordmark">
       <span class="type"><span class="l1">BOSTON</span><span class="l2">UNIVERSITY</span></span>
       <span class="rugby">RUGBY</span>
-      <svg class="skyline" width="54" height="22" viewBox="0 0 54 22" fill="none" aria-hidden="true">
-        <rect x="0" y="10" width="4" height="12" fill="var(--scarlet)"/>
-        <rect x="5" y="4" width="4" height="18" fill="var(--scarlet)"/>
-        <rect x="10" y="8" width="4" height="14" fill="var(--scarlet)"/>
-        <rect x="15" y="0" width="4" height="22" fill="var(--scarlet)"/>
-        <rect x="20" y="6" width="4" height="16" fill="var(--scarlet)"/>
-        <rect x="25" y="12" width="4" height="10" fill="var(--scarlet)"/>
-        <rect x="30" y="3" width="4" height="19" fill="var(--scarlet)"/>
-        <rect x="35" y="9" width="4" height="13" fill="var(--scarlet)"/>
-        <rect x="40" y="1" width="4" height="21" fill="var(--scarlet)"/>
-        <rect x="45" y="7" width="4" height="15" fill="var(--scarlet)"/>
-        <rect x="50" y="11" width="4" height="11" fill="var(--scarlet)"/>
-      </svg>
+      <img src="images/brand/logo.png" class="logo-mark" alt="">
     </a>
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
     <div class="nav-links">
       <a href="about.html">About</a>
-      <a href="roster.html">Roster</a>
       <a href="schedule.html">Schedule</a>
       <a href="gallery.html">Gallery</a>
       <a href="news.html">News</a>
       <a href="join.html">Join</a>
-      <a href="#" class="btn btn-outline nav-cta">Sign in</a>
     </div>
   </nav>
 </header>
@@ -68,7 +54,8 @@
       <a href="join.html" class="btn btn-outline">Come try it out</a>
     </div>
     <div class="about-photo">
-      <div class="cap">Preseason fitness &middot; Nickerson Field</div>
+      <img src="images/gallery/action-6609.jpg" alt="BU Women's Rugby team huddled together on the pitch">
+      <div class="cap">Team huddle &middot; Nickerson Field</div>
     </div>
   </div>
 </section>
@@ -106,15 +93,13 @@
     <div class="section-head">
       <div>
         <div class="kicker">Leadership</div>
-        <h2>Coaching staff &amp; captains</h2>
+        <h2>Head coach</h2>
       </div>
-      <p>Full staff bios and headshots are being added as the season builds out.</p>
     </div>
-    <div class="placeholder-note"><strong>Placeholder:</strong> the two cards below are layout examples — swap in real captain names, roles, and photos when ready.</div>
     <div class="coaches-grid">
       <div class="coach-card">
-        <div class="coach-photo ph-pattern ph-a" style="position:relative;">
-          <span class="init">JG</span>
+        <div class="coach-photo">
+          <img src="images/eboard/jess-glauser.jpg" alt="Jess Glauser, Head Coach">
         </div>
         <div class="coach-body">
           <h4>Jess Glauser</h4>
@@ -122,24 +107,148 @@
           <p>Sets the tone for a program built on mentorship — pairing every newcomer with a veteran and pushing the team to compete as a full D1 conference side.</p>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--bone);" data-reveal>
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="kicker">Leadership</div>
+        <h2>Team captains</h2>
+      </div>
+    </div>
+    <div class="coaches-grid">
       <div class="coach-card">
-        <div class="coach-photo ph-pattern ph-b" style="position:relative;">
-          <span class="init">?</span>
+        <div class="coach-photo">
+          <img src="images/eboard/isabel-gordon-headshot.jpg" alt="Isabel Gordon, Captain">
         </div>
         <div class="coach-body">
-          <h4>Assistant Coach — Name TBA</h4>
-          <div class="role">Forwards</div>
-          <p>Placeholder card — add a name, role, and short bio here.</p>
+          <h4>Isabel Gordon</h4>
+          <div class="role">Captain &middot; Hooker, #2</div>
+          <p>Elected by the squad to lead on the pitch this season.</p>
         </div>
       </div>
       <div class="coach-card">
-        <div class="coach-photo ph-pattern ph-c" style="position:relative;">
-          <span class="init">?</span>
+        <div class="coach-photo">
+          <img src="images/eboard/arianna-register-allstar.jpg" alt="Arianna Register, Captain">
         </div>
         <div class="coach-body">
-          <h4>Team Captain — Name TBA</h4>
-          <div class="role">Elected by the squad</div>
-          <p>Placeholder card — add a name, role, and short bio here.</p>
+          <h4>Arianna Register</h4>
+          <div class="role">Captain &middot; Flanker, #7</div>
+          <p>Elected by the squad to lead on the pitch this season.</p>
+          <span class="badge-allstar">2026 Collegiate Rugby All-Star</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="eboard" data-reveal>
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="kicker">Leadership</div>
+        <h2>2025–26 E-Board</h2>
+      </div>
+      <p>Tap a card for hometown and class year. The seven officers below run the club day to day — from budgets to bus logistics to game-day comms.</p>
+    </div>
+    <img class="eboard-intro" src="images/eboard/eboard-intro.jpg" alt="Boston University Women's Rugby team celebrating, Introducing E-Board graphic, Spring 2026">
+    <div class="eboard-grid">
+      <div class="eboard-card">
+        <button class="eboard-trigger" type="button">
+          <img src="images/eboard/tara-moore-headshot.jpg" alt="Tara Moore, President">
+          <div class="eboard-body">
+            <h4>Tara Moore</h4>
+            <div class="role">President</div>
+            <div class="more-hint">Hometown &amp; class</div>
+          </div>
+        </button>
+        <div class="eboard-more"><p>Hopedale, MA &middot; Senior</p></div>
+      </div>
+      <div class="eboard-card">
+        <button class="eboard-trigger" type="button">
+          <img src="images/eboard/lillian-bass-vp.jpg" alt="Lillian Bass, Vice President">
+          <div class="eboard-body">
+            <h4>Lillian Bass</h4>
+            <div class="role">Vice President</div>
+            <div class="more-hint">Hometown &amp; class</div>
+          </div>
+        </button>
+        <div class="eboard-more"><p>Class of 2027</p></div>
+      </div>
+      <div class="eboard-card">
+        <button class="eboard-trigger" type="button">
+          <img src="images/eboard/kit-humbarger-headshot.jpg" alt="Kit Humbarger, Secretary">
+          <div class="eboard-body">
+            <h4>Kit Humbarger</h4>
+            <div class="role">Secretary</div>
+            <div class="more-hint">Hometown &amp; class</div>
+          </div>
+        </button>
+        <div class="eboard-more"><p>Manhattan Beach, CA &middot; Sophomore</p></div>
+      </div>
+      <div class="eboard-card">
+        <button class="eboard-trigger" type="button">
+          <img src="images/eboard/sosi-hoerning-headshot.jpg" alt="Sosi Hoerning, Treasurer">
+          <div class="eboard-body">
+            <h4>Sosi Hoerning</h4>
+            <div class="role">Treasurer</div>
+            <div class="more-hint">Hometown &amp; class</div>
+          </div>
+        </button>
+        <div class="eboard-more"><p>Long Valley, NJ &middot; Sophomore</p></div>
+      </div>
+      <div class="eboard-card">
+        <button class="eboard-trigger" type="button">
+          <img src="images/eboard/sam-kosinski-headshot.jpg" alt="Sam Kosinski, Public Relations">
+          <div class="eboard-body">
+            <h4>Sam Kosinski</h4>
+            <div class="role">Public Relations / Social Media</div>
+            <div class="more-hint">Hometown &amp; class</div>
+          </div>
+        </button>
+        <div class="eboard-more"><p>Charleston, SC &middot; Junior</p></div>
+      </div>
+      <div class="eboard-card">
+        <button class="eboard-trigger" type="button">
+          <img src="images/eboard/hallie-mccarthy-field-secretary.jpg" alt="Hallie McCarthy, Field Secretary">
+          <div class="eboard-body">
+            <h4>Hallie McCarthy</h4>
+            <div class="role">Field Secretary</div>
+            <div class="more-hint">Hometown &amp; class</div>
+          </div>
+        </button>
+        <div class="eboard-more"><p>Class of 2029</p></div>
+      </div>
+      <div class="eboard-card">
+        <button class="eboard-trigger" type="button">
+          <img src="images/eboard/campbell-taylor-headshot.jpg" alt="Campbell Taylor, Match Secretary">
+          <div class="eboard-body">
+            <h4>Campbell Taylor</h4>
+            <div class="role">Match Secretary</div>
+            <div class="more-hint">Hometown &amp; class</div>
+          </div>
+        </button>
+        <div class="eboard-more"><p>Class of 2028</p></div>
+      </div>
+      <div class="eboard-card tba">
+        <div class="eboard-trigger">
+          <div class="eboard-photo-ph ph-pattern ph-b"><span>?</span></div>
+          <div class="eboard-body">
+            <h4>Position TBA</h4>
+            <div class="role">Add name, role &amp; photo</div>
+          </div>
+        </div>
+      </div>
+      <div class="eboard-card tba">
+        <div class="eboard-trigger">
+          <div class="eboard-photo-ph ph-pattern ph-c"><span>?</span></div>
+          <div class="eboard-body">
+            <h4>Position TBA</h4>
+            <div class="role">Add name, role &amp; photo</div>
+          </div>
         </div>
       </div>
     </div>
@@ -195,13 +304,14 @@
         <a href="index.html" class="wordmark">
           <span class="type"><span class="l1">BOSTON</span><span class="l2">UNIVERSITY</span></span>
           <span class="rugby">RUGBY</span>
+          <img src="images/brand/logo.png" class="logo-mark" alt="">
         </a>
         <p>A member of Rugby Northeast (USA Rugby), competing in the D1 Northeast Women's Collegiate Rugby Conference. Open to all students, all year round.</p>
       </div>
       <div class="foot-col">
         <h4>Team</h4>
         <a href="about.html">About us</a>
-        <a href="roster.html">Roster</a>
+        <a href="about.html#eboard">E-Board</a>
         <a href="schedule.html">Schedule</a>
         <a href="gallery.html">Gallery</a>
         <a href="news.html">News</a>
@@ -210,7 +320,6 @@
       <div class="foot-col">
         <h4>Connect</h4>
         <a href="mailto:buwrfc@bu.edu">buwrfc@bu.edu</a>
-        <a href="https://buwrfc.com" target="_blank" rel="noopener">buwrfc.com</a>
         <a href="https://www.instagram.com/buwrfc/" target="_blank" rel="noopener">Instagram</a>
         <a href="https://www.facebook.com/bostonuniversitywrfc" target="_blank" rel="noopener">Facebook</a>
       </div>

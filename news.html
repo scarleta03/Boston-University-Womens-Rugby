@@ -4,10 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>News — Boston University Women's Rugby</title>
-<meta name="description" content="Announcements, match recaps, and features from BU Women's Rugby.">
+<meta name="description" content="Announcements, match recaps, and features from BU Women's Rugby — including Arianna Register's 2026 Collegiate Rugby All-Star selection.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Jost:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -19,29 +19,15 @@
     <a href="index.html" class="wordmark">
       <span class="type"><span class="l1">BOSTON</span><span class="l2">UNIVERSITY</span></span>
       <span class="rugby">RUGBY</span>
-      <svg class="skyline" width="54" height="22" viewBox="0 0 54 22" fill="none" aria-hidden="true">
-        <rect x="0" y="10" width="4" height="12" fill="var(--scarlet)"/>
-        <rect x="5" y="4" width="4" height="18" fill="var(--scarlet)"/>
-        <rect x="10" y="8" width="4" height="14" fill="var(--scarlet)"/>
-        <rect x="15" y="0" width="4" height="22" fill="var(--scarlet)"/>
-        <rect x="20" y="6" width="4" height="16" fill="var(--scarlet)"/>
-        <rect x="25" y="12" width="4" height="10" fill="var(--scarlet)"/>
-        <rect x="30" y="3" width="4" height="19" fill="var(--scarlet)"/>
-        <rect x="35" y="9" width="4" height="13" fill="var(--scarlet)"/>
-        <rect x="40" y="1" width="4" height="21" fill="var(--scarlet)"/>
-        <rect x="45" y="7" width="4" height="15" fill="var(--scarlet)"/>
-        <rect x="50" y="11" width="4" height="11" fill="var(--scarlet)"/>
-      </svg>
+      <img src="images/brand/logo.png" class="logo-mark" alt="">
     </a>
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
     <div class="nav-links">
       <a href="about.html">About</a>
-      <a href="roster.html">Roster</a>
       <a href="schedule.html">Schedule</a>
       <a href="gallery.html">Gallery</a>
       <a href="news.html">News</a>
       <a href="join.html">Join</a>
-      <a href="#" class="btn btn-outline nav-cta">Sign in</a>
     </div>
   </nav>
 </header>
@@ -59,7 +45,7 @@
 
 <section data-reveal>
   <div class="wrap">
-    <div class="placeholder-note"><strong>Sample posts:</strong> the four posts below show the format — publish your own announcements and recaps here as the season happens.</div>
+    <div class="placeholder-note"><strong>One real update, three format samples:</strong> the All-Star feature below is genuine — the tryout, recap, and community posts show the format and are meant to be replaced with your own as the season happens.</div>
 
     <div class="news-toolbar">
       <button class="filter-btn active" data-filter="all">All</button>
@@ -70,8 +56,19 @@
     </div>
 
     <div class="news-grid">
+      <div class="news-card" data-category="feature">
+        <div class="thumb" style="aspect-ratio:16/9;overflow:hidden;"><img src="images/eboard/arianna-register-allstar.jpg" alt="Arianna Register" style="width:100%;height:100%;object-fit:cover;object-position:top;"></div>
+        <div class="body">
+          <div class="cat">Feature</div>
+          <h3>Arianna Register named to the Collegiate Rugby All-Stars</h3>
+          <div class="date">2026</div>
+          <p>#7 Arianna Register was selected for the Women's National High Performance squad at the Collegiate Rugby All-Stars event in Atlanta — a national honor for one of the club's own.</p>
+          <a href="#post-allstar" class="readmore">Read more &rarr;</a>
+        </div>
+      </div>
+
       <div class="news-card" data-category="announcement">
-        <div class="thumb ph-pattern ph-a"></div>
+        <div class="thumb"><img src="images/flyers/fall-2026-tryouts.jpg" alt="Fall 2026 Tryouts flyer"></div>
         <div class="body">
           <div class="cat">Announcement</div>
           <h3>Fall 2026 tryouts are set for September 16</h3>
@@ -82,7 +79,7 @@
       </div>
 
       <div class="news-card" data-category="feature">
-        <div class="thumb ph-pattern ph-b"></div>
+        <div class="thumb"><img src="images/eboard/jess-glauser.jpg" alt="Jess Glauser, Head Coach" style="object-position:top;"></div>
         <div class="body">
           <div class="cat">Feature</div>
           <h3>Meet head coach Jess Glauser</h3>
@@ -93,18 +90,18 @@
       </div>
 
       <div class="news-card" data-category="recap">
-        <div class="thumb ph-pattern ph-c"></div>
+        <div class="thumb"><img src="images/gallery/action-5220.jpg" alt="BU Women's Rugby player running with the ball"></div>
         <div class="body">
           <div class="cat">Match Recap</div>
-          <h3>Home opener recap: Terriers host Northeastern RFC</h3>
-          <div class="date">Sep 20, 2026</div>
+          <h3>Home opener recap: Terriers host Boston College</h3>
+          <div class="date">Oct 3, 2026</div>
           <p>A sample recap template — swap in the real final score, standout performances, and next-match preview after the whistle blows.</p>
           <a href="#post-recap" class="readmore">Read more &rarr;</a>
         </div>
       </div>
 
       <div class="news-card" data-category="community">
-        <div class="thumb ph-pattern ph-d"></div>
+        <div class="thumb"><img src="images/gallery/action-6609.jpg" alt="BU Women's Rugby team huddled together"></div>
         <div class="body">
           <div class="cat">Community</div>
           <h3>Nearly 40 new members joined the club this fall</h3>
@@ -121,7 +118,15 @@
   <div class="wrap">
     <div class="posts-list">
 
-      <article class="post" id="post-tryouts" style="border-top:none;padding-top:0;">
+      <article class="post" id="post-allstar" style="border-top:none;padding-top:0;">
+        <div class="cat">Feature</div>
+        <h2>Arianna Register named to the Collegiate Rugby All-Stars</h2>
+        <div class="date">2026</div>
+        <p>#7 Arianna Register earned a spot on the Women's National High Performance roster at the Collegiate Rugby All-Stars event in Atlanta — one of the sport's top honors for a college player, and a first for the club.</p>
+        <p>Register wears #7 for BU. Congratulations from the whole club on the recognition.</p>
+      </article>
+
+      <article class="post" id="post-tryouts">
         <div class="cat">Announcement</div>
         <h2>Fall 2026 tryouts are set for September 16</h2>
         <div class="date">Aug 20, 2026</div>
@@ -139,10 +144,10 @@
 
       <article class="post" id="post-recap">
         <div class="cat">Match Recap</div>
-        <h2>Home opener recap: Terriers host Northeastern RFC</h2>
-        <div class="date">Sep 20, 2026</div>
+        <h2>Home opener recap: Terriers host Boston College</h2>
+        <div class="date">Oct 3, 2026</div>
         <p>This is a placeholder recap showing how match reports read on this site — final score, standout performers, and a look ahead to the next fixture. Replace this paragraph with the real account once the home opener has been played.</p>
-        <p>Next up: a road trip to Amherst to face UMass on October 4.</p>
+        <p>Next up: UConn comes to Nickerson Field on October 11.</p>
       </article>
 
       <article class="post" id="post-growth">
@@ -166,13 +171,14 @@
         <a href="index.html" class="wordmark">
           <span class="type"><span class="l1">BOSTON</span><span class="l2">UNIVERSITY</span></span>
           <span class="rugby">RUGBY</span>
+          <img src="images/brand/logo.png" class="logo-mark" alt="">
         </a>
         <p>A member of Rugby Northeast (USA Rugby), competing in the D1 Northeast Women's Collegiate Rugby Conference. Open to all students, all year round.</p>
       </div>
       <div class="foot-col">
         <h4>Team</h4>
         <a href="about.html">About us</a>
-        <a href="roster.html">Roster</a>
+        <a href="about.html#eboard">E-Board</a>
         <a href="schedule.html">Schedule</a>
         <a href="gallery.html">Gallery</a>
         <a href="news.html">News</a>
@@ -181,7 +187,6 @@
       <div class="foot-col">
         <h4>Connect</h4>
         <a href="mailto:buwrfc@bu.edu">buwrfc@bu.edu</a>
-        <a href="https://buwrfc.com" target="_blank" rel="noopener">buwrfc.com</a>
         <a href="https://www.instagram.com/buwrfc/" target="_blank" rel="noopener">Instagram</a>
         <a href="https://www.facebook.com/bostonuniversitywrfc" target="_blank" rel="noopener">Facebook</a>
       </div>

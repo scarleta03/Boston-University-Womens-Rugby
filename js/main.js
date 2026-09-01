@@ -77,50 +77,16 @@
 })();
 
 (function(){
-  var items = document.querySelectorAll('.gallery-item');
-  var lightbox = document.getElementById('lightbox');
-  if(!items.length || !lightbox) return;
-
-  var photo = lightbox.querySelector('.lightbox-photo');
-  var cap = lightbox.querySelector('.lightbox-cap');
-  var closeBtn = lightbox.querySelector('.lightbox-close');
-  var prevBtn = lightbox.querySelector('[data-lb-prev]');
-  var nextBtn = lightbox.querySelector('[data-lb-next]');
-  var current = 0;
-  var list = Array.prototype.slice.call(items);
-
-  function open(i){
-    current = (i + list.length) % list.length;
-    var item = list[current];
-    photo.className = 'lightbox-photo ph-pattern ' + (item.getAttribute('data-ph') || 'ph-a');
-    cap.textContent = item.getAttribute('data-caption') || '';
-    lightbox.classList.add('open');
-    closeBtn.focus();
-    document.body.style.overflow = 'hidden';
-  }
-  function close(){
-    lightbox.classList.remove('open');
-    document.body.style.overflow = '';
-  }
-
-  list.forEach(function(item, i){
-    item.addEventListener('click', function(){ open(i); });
-    item.setAttribute('tabindex', '0');
-    item.setAttribute('role', 'button');
-    item.addEventListener('keydown', function(e){
-      if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); open(i); }
+  var triggers = document.querySelectorAll('.eboard-trigger');
+  if(!triggers.length) return;
+  triggers.forEach(function(btn){
+    var card = btn.closest('.eboard-card');
+    if(!card || card.classList.contains('tba')) return;
+    btn.setAttribute('aria-expanded', 'false');
+    btn.addEventListener('click', function(){
+      var open = card.classList.toggle('expanded');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
     });
-  });
-
-  closeBtn.addEventListener('click', close);
-  lightbox.addEventListener('click', function(e){ if(e.target === lightbox) close(); });
-  if(prevBtn) prevBtn.addEventListener('click', function(){ open(current - 1); });
-  if(nextBtn) nextBtn.addEventListener('click', function(){ open(current + 1); });
-  document.addEventListener('keydown', function(e){
-    if(!lightbox.classList.contains('open')) return;
-    if(e.key === 'Escape') close();
-    if(e.key === 'ArrowLeft') open(current - 1);
-    if(e.key === 'ArrowRight') open(current + 1);
   });
 })();
 
