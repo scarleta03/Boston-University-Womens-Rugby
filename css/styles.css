@@ -203,7 +203,7 @@ section{padding:96px 0;}
 @media (max-width:860px){.coaches-grid{grid-template-columns:1fr;}}
 
 /* ---------- E-BOARD ---------- */
-.eboard-intro{display:block;max-width:340px;margin:0 auto 56px;border:1px solid var(--line);box-shadow:var(--shadow);}
+.eboard-intro{display:block;width:100%;max-width:340px;height:auto;margin:0 auto 56px;border:1px solid var(--line);box-shadow:var(--shadow);}
 .eboard-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:24px;}
 .eboard-card{border:1px solid var(--line);background:var(--paper);overflow:hidden;transition:transform .25s ease, box-shadow .25s ease;}
 .eboard-card:hover{transform:translateY(-4px);box-shadow:var(--shadow);}
