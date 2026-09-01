@@ -3,12 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#D12F2F">
 <title>Boston University Women's Rugby</title>
 <meta name="description" content="Boston University's women's rugby club — D1 Northeast Collegiate Rugby Conference. No experience needed, ever, at any point in the year.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Jost:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
 <link rel="icon" type="image/png" href="images/brand/favicon.png">
+<link rel="preload" as="image" href="images/flyers/fall-2026-tryouts.jpg">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -39,7 +41,7 @@
   <div class="wrap">
     <div class="poster">
       <div class="poster-photo" style="background:var(--ink);display:flex;align-items:center;justify-content:center;padding:22px;">
-        <img src="images/flyers/fall-2026-tryouts.jpg" alt="Fall 2026 Tryouts flyer — Nickerson Field, September 16, 2026, 6:30–9:00 PM" style="width:100%;height:100%;object-fit:contain;">
+        <img src="images/flyers/fall-2026-tryouts.jpg" alt="Fall 2026 Tryouts flyer — Nickerson Field, September 16, 2026, 6:30–9:00 PM" style="width:100%;height:100%;object-fit:contain;" fetchpriority="high" decoding="async">
       </div>
       <div class="poster-copy">
         <div class="eyebrow">Club Sport &middot; USA Rugby &middot; Rugby Northeast</div>
@@ -77,7 +79,7 @@
       <a href="about.html" class="btn btn-outline">Read our story</a>
     </div>
     <div class="about-photo">
-      <img src="images/gallery/action-5735.jpg" alt="BU Women's Rugby players competing at a ruck">
+      <img src="images/gallery/action-5735.jpg" alt="BU Women's Rugby players competing at a ruck" loading="lazy" decoding="async">
       <div class="cap">Match day &middot; Nickerson Field</div>
     </div>
   </div>
@@ -201,7 +203,7 @@
       <a href="https://www.instagram.com/buwrfc/" target="_blank" rel="noopener" class="btn btn-outline">Follow @buwrfc for updates</a>
     </div>
     <div class="about-photo" style="aspect-ratio:4/5;">
-      <img src="images/flyers/splash-2026.jpg" alt="Want to try rugby? Find us at SPLASH! — September 5, 2026, 12–2 PM" style="object-position:top;">
+      <img src="images/flyers/splash-2026.jpg" alt="Want to try rugby? Find us at SPLASH! — September 5, 2026, 12–2 PM" style="object-position:top;" loading="lazy" decoding="async">
     </div>
   </div>
 </section>
