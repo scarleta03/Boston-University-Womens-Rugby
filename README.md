@@ -79,4 +79,4 @@ Questions, corrections, or photos to add: **buwrfc@bu.edu**
 
 ---
 
-<p align="center"><sub>Built and maintained by the club. Go Terriers. 🏉</sub></p>
+<p align="center"><sub>Created by Scarlet Alvarez Marte &middot; built and maintained by the club. Go Terriers. 🏉</sub>sub></p>p></sub>
