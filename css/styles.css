@@ -395,6 +395,7 @@ footer{background:var(--paper);padding:70px 0 30px;border-top:3px solid var(--sc
 .foot-col a{display:block;text-decoration:none;color:var(--muted);font-size:15px;margin-bottom:10px;}
 .foot-col a:hover{color:var(--scarlet);}
 .foot-bottom{border-top:1px solid var(--line);padding-top:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:13.5px;color:var(--faint);}
+.site-credit{text-align:center;padding:16px 0 4px;font-size:15px;font-weight:700;color:var(--scarlet);}
 @media (max-width:860px){.foot-grid{grid-template-columns:1fr;gap:36px;}}
 
 /* ---------- PLACEHOLDER PHOTO VARIANTS ---------- */
